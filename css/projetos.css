@@ -1,0 +1,32 @@
+.container {
+margin-top: 6%;
+margin-bottom: 5%;
+}
+
+.left {
+    margin-left: 4%;
+}
+
+h2 {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.imagens {
+    display: flex;
+}
+
+.titulo {
+    color: white;
+    font-size: 25px;
+    width: 100%; /* Faz com que o título ocupe a largura completa da linha */
+}
+
+.imgProject {
+    margin-bottom: 2%;
+} 
+
+.project .imgProject:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}

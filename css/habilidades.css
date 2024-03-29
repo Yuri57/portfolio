@@ -1,0 +1,92 @@
+p {
+    color: #fff;
+
+}
+
+.teste {
+    display: flex;
+    justify-content: left;
+}
+
+.texto {
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+    width: 50%;
+    margin-left: 28px;
+    font-weight: bold;
+}
+
+.h1 {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 28px;
+    font-weight: bold;
+    width: 51%;
+}
+
+.title {
+    color: white;
+    font-size: 25px;
+    text-align: left;
+}
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-top: 3rem;
+    padding: 4rem;
+}
+
+@media only screen and (max-width: 899px) {
+    .skills {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        margin-top: 7.5rem;
+        padding: 4rem;
+        margin-left: 0rem;
+    }
+  }
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tab {
+    padding: 10px 15px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 2rem;
+}
+
+.tab:hover {
+    background-color: #555;
+    transform: scale(1.1);
+    transition: .2s;
+}
+
+.tab.active {
+    background-color: #007bff;
+}
+
+.skills-content {
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+.skills-content.active {
+    display: block;
+}
+
+#habilidades {
+    margin-top: 5%;
+}

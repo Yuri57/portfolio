@@ -1,0 +1,158 @@
+body {
+    background: linear-gradient(45deg, #161A30, #31304D, #b4c4e0, #1b1079);
+    background-size: 300% 300%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem {
+    align-items: end;
+    width: 20%;
+    object-fit: cover;
+
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+    box-shadow: 0 3px 6px #161A30, 0 3px 6px #31304D;
+    transition: .2s;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.1rem 9.5rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 999px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3.1rem 3.5rem;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .imagem {
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .banner {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    text-align: center;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem {
+    width: 50%;
+    height: 30%;
+}
+}
+
+.curriculoStyle {
+    text-align: center;
+    width: 32%;
+    background-color: #31304D;
+    margin-left: 28px;
+    border-radius: 45px;
+
+}
+
+span {
+    font-size: 2.2rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.9rem;
+    display: block;
+    color: #8257E6;
+    margin-left: 28px;
+}
+
+.paragrafo {
+    font-size: 1.9rem;
+    margin-left: 28px;
+    color: #fff;
+}
+
+.rodape {
+    margin-top: 55px;
+}
+
+.home {
+    display: flex;
+    justify-content: left;
+}
+
+.abount {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;
+}
+
+h2 {
+    color: #fff;
+}
+
+.text {
+    color: #828282;
+    font-size: 1.4rem;
+    text-align: center;
+    width: 92%;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    margin-left: 28px;
+    font-weight: bold;
+    font-size: 3.2rem;
+}

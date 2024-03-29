@@ -1,0 +1,23 @@
+
+
+.imgContato {
+    border-radius: 28px;
+
+}
+
+.pColor {
+    color: white;
+}
+
+.contatos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3.5rem;
+    padding: 4rem 20%
+}
+
+.row .icone:hover {
+    transform: scale(1.1);
+    transition: .2s;
+}
