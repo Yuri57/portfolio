@@ -39,6 +39,7 @@ p {
     justify-content: left;
     margin-top: 3rem;
     padding: 4rem;
+    margin-left: 1%;
 }
 
 @media only screen and (max-width: 899px) {

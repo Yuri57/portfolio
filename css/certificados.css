@@ -20,6 +20,10 @@ h1 {
     margin-bottom: 5%;
 }
 
+.certificates {
+    margin-top: 2rem;
+}
+
 .certificados:hover {
     transform: scale(1.1);
     transition: .2s;

@@ -26,6 +26,10 @@ h2 {
     margin-bottom: 2%;
 } 
 
+.project {
+    margin-top: 2rem;
+}
+
 .project .imgProject:hover {
     transform: scale(1.1);
     transition: .2s;
