@@ -20,12 +20,6 @@ h2 {
     display: flex;
 }
 
-.titulo {
-    color: white;
-    font-size: 25px;
-    width: 100%; /* Faz com que o título ocupe a largura completa da linha */
-}
-
 .imgProject {
     margin-bottom: 2%;
 } 

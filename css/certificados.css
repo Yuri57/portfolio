@@ -10,12 +10,6 @@ body::-webkit-scrollbar-thumb {
     background-color: #1b1079;
 }
 
-h1 {
-    margin: 30px;
-    color: #fff;
-    font-size: 2.2rem;
-}
-
 .certificados {
     margin-bottom: 5%;
 }

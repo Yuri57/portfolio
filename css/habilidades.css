@@ -3,37 +3,11 @@ p {
 
 }
 
-.teste {
-    display: flex;
-    justify-content: left;
-}
-
-.texto {
-    color: white;
-    font-size: 1.2rem;
-    text-align: left;
-    width: 50%;
-    margin-left: 28px;
-    font-weight: bold;
-}
-
-.h1 {
-    color: white;
-    font-size: 32px;
-    margin-bottom: 30px;
-    text-align: left;
-    margin-left: 28px;
-    font-weight: bold;
-    width: 51%;
-}
-
 .title {
-    color: white;
-    font-size: 25px;
-    text-align: left;
+    margin: -0.8rem;
 }
-  
-  .skills {
+
+.skills {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -51,7 +25,8 @@ p {
         padding: 4rem;
         margin-left: 0rem;
     }
-  }
+}
+
 .tabs {
     display: flex;
     margin-bottom: 10px;
