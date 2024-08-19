@@ -88,7 +88,16 @@ section {
 
     #downloadButton {
         width: 100%;
-        font-size: 1.6rem
+        font-size: 1.6rem;
+        margin-left: 0%;
+    }
+
+    .text {
+        margin-left: 2% !important;
+    }
+
+    .paragrafo {
+        margin-left: 0% !important;
     }
 
     /* projetos */
