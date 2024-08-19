@@ -3,10 +3,6 @@ margin-top: 6%;
 margin-bottom: 5%;
 }
 
-.left {
-    margin-left: 4%;
-}
-
 .border {
     border-radius: 10px;
 }
@@ -14,6 +10,8 @@ margin-bottom: 5%;
 h2 {
     font-size: 1.9rem;
     font-weight: bold;
+    text-align: center;
+    color: #fff;
 }
 
 .imagens {
@@ -35,4 +33,11 @@ h2 {
 
 #projetos h6 {
     margin-top: 6px;
+}
+
+@media (max-width: 550px) {
+.project {
+display: inline-grid;
+} 
+
 }

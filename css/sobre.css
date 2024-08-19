@@ -28,9 +28,7 @@ section {
 }
 
 .imagem {
-    align-items: end;
-    width: 20%;
-    object-fit: cover;
+    width: 19rem;
 
 }
 
@@ -54,9 +52,10 @@ section {
 
 @media (max-width: 999px) {
 
-    body{
+    body {
         overflow-x: hidden;
     }
+
     .banner {
         display: flex;
         justify-content: space-between;
@@ -70,32 +69,60 @@ section {
     }
 }
 
+@media (max-width: 767px) {
+    body {
+        text-align: center;
+    }
 
-@media (max-width: 800px) {
-    .imagem {
-        width: 30%;
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .intro {
+        align-items: center;
+    }
+    /* sobre */
+    span {
+    margin-left: 0% !important;
+    }
+
+    #downloadButton {
+        width: 100%;
+        font-size: 1.6rem
+    }
+
+    /* projetos */
+    .project {
+        display: inline-block;
+    }
+
+    /* certifcados */
+    .certificates {
+        display: inline-grid;
     }
 }
 
 
+
 @media (max-width: 550px) {
+
+    body {
+        text-align: center;
+    }
+
     .banner {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    text-align: center;
-}
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        text-align: center;
+    }
 
-.intro {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.imagem {
-    width: 50%;
-    height: 30%;
-}
 }
 
 .curriculoStyle {
@@ -120,6 +147,7 @@ span {
     font-size: 1.9rem;
     margin-left: 28px;
     color: #fff;
+    font-weight: bold;
 }
 
 .rodape {
@@ -138,12 +166,7 @@ span {
     margin-top: 1%;
 }
 
-h2 {
-    color: #fff;
-}
-
 .text {
-    color: #828282;
     font-size: 1.4rem;
     text-align: center;
     width: 92%;
@@ -153,6 +176,5 @@ h1 {
     margin: 23px;
     color: #fff;
     font-size: 2.2rem;
-    text-align: left;
     font-weight: bold;
 }

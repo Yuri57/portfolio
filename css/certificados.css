@@ -22,3 +22,9 @@ body::-webkit-scrollbar-thumb {
     transform: scale(1.1);
     transition: .2s;
 }
+
+@media (max-width: 550px) {
+    .certificates {
+    display: inline-grid;
+    } 
+}

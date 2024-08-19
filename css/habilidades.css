@@ -9,21 +9,18 @@ p {
 
 .skills {
     display: flex;
+    align-items: center;
     flex-direction: column;
-    justify-content: left;
     margin-top: 3rem;
     padding: 4rem;
-    margin-left: 1%;
 }
 
 @media only screen and (max-width: 899px) {
     .skills {
         display: flex;
         flex-direction: column;
-        justify-content: left;
         margin-top: 7.5rem;
         padding: 4rem;
-        margin-left: 0rem;
     }
 }
 
