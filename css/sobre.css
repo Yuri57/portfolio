@@ -69,6 +69,16 @@ section {
     }
 }
 
+@media (max-height: 800px) {
+    .abount {
+        margin-top: 0% !important;
+    }
+
+    .imagem {
+        width: 17rem;
+    }
+}
+
 @media (max-width: 767px) {
     body {
         text-align: center;
@@ -81,9 +91,10 @@ section {
     .intro {
         align-items: center;
     }
+
     /* sobre */
     span {
-    margin-left: 0% !important;
+        margin-left: 0% !important;
     }
 
     #downloadButton {
